@@ -1,0 +1,39 @@
+
+
+.body {
+    margin: 0;
+    background-color: aqua;
+}
+
+.calculatorBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13%;
+    gap: 5px;
+
+}
+
+.rowResult {
+    padding-bottom: 10px;
+    background-color: gray;
+    height: 20px;
+}
+
+
+
+.operators {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.operators button:last-child {
+    height: 80px;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+}

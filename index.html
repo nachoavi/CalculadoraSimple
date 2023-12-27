@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body class="body">
+    <div class="calculatorBody">
+        <div class="numbers">
+            <div class="rowResult">
+                <label id="display" class="result">: </label>
+            </div>
+            <div class="row">
+                <button onclick="clearDisplay()" id="AC" class="button">AC</button>
+                <button id="DEL" class="button">DEL</button>
+                <button  id="OFF" class="button">OFF</button>
+            </div>
+            <div class="row">
+                <Button onclick="appendValue('7')" id="num7" class="button" value="7">7</Button>
+                <Button onclick="appendValue('8')" id="num8" class="button" value="8">8</Button>
+                <Button onclick="appendValue('9')" id="num9" class="button" value="9">9</Button>
+            </div>
+            <div class="row">
+                <Button onclick="appendValue('4')" id="num4" class="button" value="4">4</Button>
+                <Button onclick="appendValue('5')" id="num5" class="button" value="5">5</Button>
+                <Button onclick="appendValue('6')" id="num6" class="button" value="6">6</Button>
+            </div>
+            <div class="row">
+                <Button onclick="appendValue('1')" id="num1" class="button" value="1">1</Button>
+                <Button onclick="appendValue('2')" id="num2" class="button" value="2">2</Button>
+                <Button onclick="appendValue('3')" id="num3" class="button" value="3">3</Button>
+            </div>
+            <div class="row">
+                <button onclick="appendValue('0')" id="num0" class="button">0</button>
+                <button onclick="appendValue('.')" id="pointButton" class="button">.</button>
+                <button onclick="calculate()" id="equalButton" class="button">=</button>
+            </div>
+        </div>
+        <div class="operators">
+            <button onclick="appendValue('/')" id="splitButton" class="button">/</button>
+            <button onclick="appendValue('*')" id="multiplyButton" class="button">x</button>
+            <button onclick="appendValue('-')" id="restButton" class="button">-</button>
+            <button onclick="appendValue('+')" id="plusButton" classs="button">+</button>
+        </div>
+    </div>
+    
+
+    <script src="calculator.js"></script>
+</body>
+</html>
