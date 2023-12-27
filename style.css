@@ -8,10 +8,10 @@
 .calculatorBody {
     display: flex;
     align-items: center;
+    border: solid;
     justify-content: center;
-    padding-top: 13%;
+    margin-top: 16%;
     gap: 5px;
-
 }
 
 .rowResult {
@@ -19,8 +19,6 @@
     background-color: gray;
     height: 20px;
 }
-
-
 
 .operators {
     display: flex;

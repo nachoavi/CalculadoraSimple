@@ -18,6 +18,10 @@ function calculate() {
 
 }
 
+function delNumber() {
+    displayValue = displayValue.slice(0,displayValue.length - 1);
+    display.innerText = displayValue
+}
 
 function clearDisplay() {
     displayValue = '';
